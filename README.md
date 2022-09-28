@@ -1,5 +1,51 @@
 # Basic-SMTP-Email-Client
-Assignment-1 for COMPSCI-520
+Assignment-1 for COMPSCI-520 done by Rishvaanth Thiruselvan.
+
+## **Execution Steps**:
+
+In the project directory, the evaluator may find Two folders and this Readme.md file which contains the steps to replicate the code as well as the problem statement and offering credits where credit is due.
+
+The folder called "**_project_**" contains the files which are submitted for evaluation including hw1.py which is the script to be executed.
+
+The other txt files are mail contents housed in for input.
+
+The extra correct_getnada.txt is a file created by me with the recipient mail id using getnada.
+
+This has been done since zoho.com has **blocked** requests from Dynamic mail Addresses.
+
+getnada.com lets us to use the mail service without any real sender accounts and hence that has been used.
+
+at the project directory where the python files are located execute the following command in a terminal
+
+``./project % python3 hw1.py correct.txt ``
+
+everything before "%" symbol shouldn't be be pasted to the terminal. 
+
+It is just to show the terminal is opened at the project directory of the repo.
+
+following the **file name: hw1.py** we pass the name of the file to be used as the input.
+
+You should see the script do the task and print outputs based on the execution.
+
+As for the test folder, **_it is not for evaluation_**, however they were created for me to try and test and play through different concepts which are used in the project.
+
+I have decided to keep them as a fond rememberance of my very first Assignment at UWM.
+
+
+
+
+## **Credits:** 
+
+[RFC: 821 by Jonathan B. Postel.](https://www.rfc-editor.org/rfc/rfc821)
+
+[Corey Schafer](https://www.youtube.com/c/Coreyms) whose videos pretty much helped me through the file handling steps of python.
+
+[Stackoverflow link]( https://stackoverflow.com/questions/33397024/mail-client-in-python-using-sockets-onlyno-smtplib):
+ references taken from the above for the smtp interaction using sockets in python.
+
+Computer Networks Class slides taken from canvas by Dr. Hamed Rezaei, UWM.
+
+
 
 ## Problem Statement: 	
 
